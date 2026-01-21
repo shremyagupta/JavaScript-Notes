@@ -4,17 +4,34 @@
 <head>
     <meta charset="UTF-8">
    <title>DOM Learning</title>
-   <style>
-    .bg-black{
-        background-color: black;
-        color: white;
-    }
-   </style>
+   
 </head>
-<body class = "bg-black">
-    <div >
-        <h1 id = "title" class = "heading">Dom learing on chai aur code</h1>
-        <p> Loream is a clumsy person</p>
+<body style="background-color: black; color: white";>
+
+
+    <!-- <div class  ="parent" ></div> -->
+<!--     
+        <div class = "day"> Monday</div>
+        <div class = "day"> Tuesday</div>
+        <div class = "day"> Wednesday</div>
+        <div class = "day"> Thursday</div>
+        <div class = "day"> Friday</div> -->
+
     </div>
+
+
+
+    
 </body>
+<script>
+    const div = document.createElement('div')
+    console.log(div);
+    div.id = Math.round(Math.random() *10 +1)
+    div.setAttribute("title", "This is a random div")
+    div.style.backgroundColor = "green"
+    div.style.padding= "29px"
+    
+    
+     
+</script>
 </html>
